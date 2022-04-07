@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    text-decoration: none;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+        "left-nav topBar topBar"
+        "left-nav projects announcements"
+        "left-nave projects trending";
+    grid-template-columns: .8fr 2.4fr .8fr;
+    grid-template-rows: 100vh;
+}
+
+.left-nav{
+    grid-area: left-nav;
+    display: grid;
+    grid-template-areas: 
+    "Heading"
+    "sec1"
+    "sec2"
+    "empty";
+}
+
+.top-page{
+    grid-area: topBar;
+}
+        /* Left Nav Grid Layout */
+            .project-container{
+                grid-area: projects;
+            }
+            .Dash{
+                grid-area: Heading;
+            }
+
+            .home-com{
+                grid-area: sec1;
+            }
+
+            .setting-priv{
+                grid-area: sec2;
+            }
