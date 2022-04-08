@@ -1,0 +1,87 @@
+
+.top-search{
+    grid-area: topPage;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.search {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 10px;
+    padding-left: 30px;
+}
+.search input{
+    border: 3px solid rgb(230, 229, 229);
+    border-radius: 15px;
+    height: 25px;
+    width: 650px;
+    background-color: rgb(230, 229, 229);
+    outline: none;
+
+}
+
+
+.profilePic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+}
+.profilePic img{
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+
+.profilePic .notif{
+    padding-right: 40px;
+}
+
+.bottom-page{
+    grid-area: bottomPage;
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+}
+.bottom-page .left-top{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+.left-top-text{
+    padding-top: 15px;
+    padding-left: 25px;
+    font-size: 20px;
+
+}
+.bottom-page img{
+    width: 85px;
+    height: 85px;
+    border-radius: 70px;
+}
+
+.new-post-buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+.new-post-buttons button{
+
+    background-color: #0ea5e9;
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: 1px solid #0ea5e9;
+    color: white;
+    font-size: 20px;
+    gap: 40px;
+   
+}
